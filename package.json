@@ -1,0 +1,7 @@
+{
+  "name": "fetch-axios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "鲁举佩 <lujupei@uino.com>",
+  "license": "MIT"
+}
