@@ -1,7 +1,20 @@
 {
   "name": "fetch-axios",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "鲁举佩 <lujupei@uino.com>",
-  "license": "MIT"
+  "main": "lib/index.js",
+  "author": "鲁举佩 <653390161@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "prebuild": "rimraf ./lib",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4"
+  }
 }
