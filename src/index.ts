@@ -1,7 +1,7 @@
 import {request} from './request/http';
 
 const a = request({
-  url: 'http://localhost/downStatistics/getAllStatistics',
+  url: 'http://localhost:8088/downStatistics/getAllStatistics',
   headers: {
     'x-isGuidePage': 'true'
   },

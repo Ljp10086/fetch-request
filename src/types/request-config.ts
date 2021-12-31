@@ -1,6 +1,7 @@
+export type RequestMethod = 'get' | 'post';
 export interface RequestConfig {
   url: string;
-  method?: 'get' | 'post';
+  method?: RequestMethod;
   baseURL?: string;
   headers?: { [headerKey: string]: string };
   timeout?: number;

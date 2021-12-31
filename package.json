@@ -10,6 +10,7 @@
     "build": "rollup -c"
   },
   "devDependencies": {
+    "@rollup/plugin-html": "^0.2.4",
     "rimraf": "^3.0.2",
     "rollup": "^2.62.0",
     "rollup-plugin-node-resolve": "^5.2.0",

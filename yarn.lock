@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@rollup/plugin-html@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.npmmirror.com/@rollup/plugin-html/download/@rollup/plugin-html-0.2.4.tgz#11e0c1255b2986a71a858c8cbc6a6313d0b46c1e"
+  integrity sha1-EeDBJVsphqcahYyMvGpjE9C0bB4=
+
 "@rollup/pluginutils@^4.1.0":
   version "4.1.2"
   resolved "https://registry.npmmirror.com/@rollup/pluginutils/download/@rollup/pluginutils-4.1.2.tgz#ed5821c15e5e05e32816f5fb9ec607cdf5a75751"
