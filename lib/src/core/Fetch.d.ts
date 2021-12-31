@@ -1,0 +1,3 @@
+declare class Fetch {
+    constructor();
+}
