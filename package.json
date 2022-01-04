@@ -1,7 +1,7 @@
 {
   "name": "fetch-axios",
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "./lib/bundle.js",
   "author": "鲁举佩 <653390161@qq.com>",
   "license": "MIT",
   "scripts": {

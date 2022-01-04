@@ -1,14 +1,5 @@
-import {request} from './request/http';
+import { Fetch } from "./core/Fetch";
 
-const a = request({
-  url: 'http://localhost:8088/downStatistics/getAllStatistics',
-  headers: {
-    'x-isGuidePage': 'true'
-  },
-  method: 'get',
-});
+const mFetch = new Fetch();
 
-a.then(async (v) => {
-  const json = await v.json();
-  console.log(json);
-})
+export default mFetch;
